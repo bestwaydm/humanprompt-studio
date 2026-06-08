@@ -1,0 +1,16 @@
+{
+  "name": "humanprompt/studio",
+  "description": "A lightweight PHP prompt director that improves simple requests into stronger AI-ready prompts, briefs, and final content.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "scripts": {
+    "serve": "php -S localhost:8000 -t public",
+    "check": "find app config public -name '*.php' -print0 | xargs -0 -n1 php -l"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

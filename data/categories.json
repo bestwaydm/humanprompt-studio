@@ -1,0 +1,9 @@
+{
+  "image": { "name": "Image Design", "description": "Posters, ads, infographics, logos, and visual concepts." },
+  "video": { "name": "Video Generation", "description": "Short ads, cinematic scenes, camera movement, and product videos." },
+  "ad": { "name": "Advertising", "description": "Social media ads, paid ads, and local business campaigns." },
+  "article": { "name": "SEO Content", "description": "Articles, guides, product descriptions, and content briefs." },
+  "code": { "name": "Coding", "description": "Code tasks, bug fixes, dashboards, APIs, and project structures." },
+  "landing": { "name": "Landing Page", "description": "Conversion-focused page prompts and section briefs." },
+  "planning": { "name": "Planning", "description": "PRDs, roadmaps, comparisons, and idea analysis." }
+}

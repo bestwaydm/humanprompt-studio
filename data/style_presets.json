@@ -1,0 +1,198 @@
+{
+  "editorial_collage": {
+    "name": "Editorial Collage",
+    "description": "Human-made magazine collage style with paper texture and asymmetry.",
+    "best_for": [
+      "infographic",
+      "poster",
+      "personal_brand",
+      "business_story"
+    ],
+    "must_include": [
+      "asymmetrical composition",
+      "paper texture",
+      "torn edges",
+      "handwritten notes",
+      "cropped subject",
+      "natural shadows",
+      "bold typography"
+    ],
+    "avoid": [
+      "centered hero layout",
+      "symmetric card grid",
+      "glossy gradient",
+      "hologram UI",
+      "generic vector icons"
+    ]
+  },
+  "documentary_product_direction": {
+    "name": "Documentary Product Direction",
+    "description": "Real-world product or service direction with practical detail and believable context.",
+    "best_for": [
+      "products",
+      "services",
+      "construction",
+      "manufacturing",
+      "interiors",
+      "physical_businesses"
+    ],
+    "must_include": [
+      "real-world atmosphere",
+      "natural lighting",
+      "authentic materials",
+      "practical product focus",
+      "clear benefit hierarchy"
+    ],
+    "avoid": [
+      "stock photo look",
+      "over-polished AI rendering",
+      "fake luxury background",
+      "forced local-market claims"
+    ]
+  },
+  "high_end_interior_editorial": {
+    "name": "High-End Interior Editorial",
+    "description": "Premium interior design direction without fake luxury exaggeration.",
+    "best_for": [
+      "kitchens",
+      "interior_design",
+      "furniture",
+      "real_estate"
+    ],
+    "must_include": [
+      "real material close-ups",
+      "soft natural light",
+      "editorial framing",
+      "balanced negative space",
+      "premium but believable atmosphere"
+    ],
+    "avoid": [
+      "plastic-looking surfaces",
+      "fake showroom glow",
+      "over-saturated luxury look"
+    ]
+  },
+  "cinematic_product_direction": {
+    "name": "Cinematic Product Direction",
+    "description": "Video-first direction with scene, motion, camera, and pacing.",
+    "best_for": [
+      "video",
+      "product",
+      "commercial",
+      "reel"
+    ],
+    "must_include": [
+      "clear camera movement",
+      "specific shot sizes",
+      "controlled pacing",
+      "natural lighting",
+      "realistic environment"
+    ],
+    "avoid": [
+      "random camera motion",
+      "unmotivated slow motion",
+      "generic cinematic gloss"
+    ]
+  },
+  "minimal_editorial_web": {
+    "name": "Minimal Editorial Web",
+    "description": "Clean web direction with editorial spacing and strong hierarchy.",
+    "best_for": [
+      "landing_pages",
+      "websites",
+      "saas",
+      "business_websites"
+    ],
+    "must_include": [
+      "clear information hierarchy",
+      "large readable headline",
+      "editorial spacing",
+      "strong CTA",
+      "calm color palette",
+      "responsive section structure"
+    ],
+    "avoid": [
+      "template-looking hero section",
+      "generic gradient blobs",
+      "too many floating cards",
+      "country assumptions not requested by the user"
+    ]
+  },
+  "structured_developer_brief": {
+    "name": "Structured Developer Brief",
+    "description": "Technical prompt direction for implementation-ready coding tasks.",
+    "best_for": [
+      "code",
+      "bug_fix",
+      "api",
+      "dashboard",
+      "architecture"
+    ],
+    "must_include": [
+      "goal",
+      "expected behavior",
+      "file structure",
+      "security requirements",
+      "edge cases",
+      "acceptance criteria"
+    ],
+    "avoid": [
+      "vague implementation request",
+      "mixed responsibilities",
+      "hard-coded secrets"
+    ]
+  },
+  "human_made_social_ad": {
+    "name": "Human-Made Social Ad",
+    "description": "Practical and believable social ad direction.",
+    "best_for": [
+      "ads",
+      "social_media",
+      "campaigns"
+    ],
+    "must_include": [
+      "clear benefit",
+      "specific visual subject",
+      "natural shadows",
+      "real context",
+      "simple headline space"
+    ],
+    "avoid": [
+      "generic ad template",
+      "too many icons",
+      "artificial background"
+    ]
+  },
+  "auto_prompt_director": {
+    "name": "Auto Prompt Director",
+    "description": "A general prompt-improvement direction for any task type: ads, designs, studies, code, articles, videos, and plans.",
+    "best_for": [
+      "general",
+      "planning",
+      "research",
+      "code",
+      "article",
+      "ad",
+      "image",
+      "video",
+      "landing"
+    ],
+    "must_include": [
+      "clear objective",
+      "target audience",
+      "context",
+      "missing assumptions",
+      "output format",
+      "constraints",
+      "quality rules",
+      "final deliverable"
+    ],
+    "avoid": [
+      "generic expansion only",
+      "vague adjectives",
+      "unsupported assumptions",
+      "forced local context",
+      "template-like output"
+    ]
+  }
+}

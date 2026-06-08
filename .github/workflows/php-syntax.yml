@@ -1,0 +1,28 @@
+name: PHP Syntax Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  php-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: json, openssl, curl
+
+      - name: Check PHP syntax
+        run: |
+          find app config public -name '*.php' -print0 | xargs -0 -n1 php -l
+
+      - name: Validate JSON files
+        run: |
+          php -r 'foreach (glob("data/*.json") as $f) { json_decode(file_get_contents($f), true); if (json_last_error() !== JSON_ERROR_NONE) { fwrite(STDERR, "$f: ".json_last_error_msg().PHP_EOL); exit(1); } echo "$f OK\n"; }'

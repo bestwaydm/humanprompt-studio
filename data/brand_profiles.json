@@ -1,0 +1,124 @@
+{
+  "general_project": {
+    "brand": "General Project",
+    "market": "Global / not specified",
+    "language": "Auto",
+    "tone": "clear, useful, practical, and adaptable",
+    "preferred_terms": [
+      "clear objective",
+      "specific output",
+      "target audience",
+      "practical constraints",
+      "ready-to-use result"
+    ],
+    "avoid": [
+      "forced local assumptions",
+      "unsupported country-specific claims",
+      "generic AI wording",
+      "fake brand identity"
+    ]
+  },
+  "business_website": {
+    "brand": "Business Website",
+    "market": "Global / selected by user",
+    "language": "Auto",
+    "tone": "professional, trustworthy, clear, and conversion-focused",
+    "preferred_terms": [
+      "hero section",
+      "services",
+      "products",
+      "portfolio",
+      "testimonials",
+      "FAQ",
+      "contact section",
+      "responsive design"
+    ],
+    "avoid": [
+      "template-looking homepage",
+      "unclear CTA",
+      "too many decorative sections",
+      "unverified local claims"
+    ]
+  },
+  "ecommerce_project": {
+    "brand": "E-commerce Project",
+    "market": "Global / selected by user",
+    "language": "Auto",
+    "tone": "clear, persuasive, product-focused, and practical",
+    "preferred_terms": [
+      "product cards",
+      "filters",
+      "trust signals",
+      "checkout flow",
+      "offers",
+      "mobile-first shopping experience"
+    ],
+    "avoid": [
+      "fake discounts",
+      "overloaded product grids",
+      "unclear pricing",
+      "unrealistic claims"
+    ]
+  },
+  "saas_product": {
+    "brand": "SaaS / Software Product",
+    "market": "Global / selected by user",
+    "language": "Auto",
+    "tone": "precise, modern, structured, and benefit-driven",
+    "preferred_terms": [
+      "dashboard",
+      "workflow",
+      "features",
+      "use cases",
+      "pricing",
+      "onboarding",
+      "integration"
+    ],
+    "avoid": [
+      "glossy blue AI dashboard",
+      "meaningless feature cards",
+      "hologram UI",
+      "vague productivity claims"
+    ]
+  },
+  "creative_campaign": {
+    "brand": "Creative Campaign",
+    "market": "Global / selected by user",
+    "language": "Auto",
+    "tone": "memorable, human, distinctive, and campaign-ready",
+    "preferred_terms": [
+      "campaign concept",
+      "visual hook",
+      "headline direction",
+      "composition",
+      "message hierarchy",
+      "negative prompt"
+    ],
+    "avoid": [
+      "generic ad template",
+      "stock-photo smile",
+      "too many icons",
+      "over-polished AI look"
+    ]
+  },
+  "technical_project": {
+    "brand": "Technical / Developer Project",
+    "market": "Global / not specified",
+    "language": "Auto",
+    "tone": "structured, implementation-ready, secure, and precise",
+    "preferred_terms": [
+      "requirements",
+      "architecture",
+      "file structure",
+      "API endpoints",
+      "security",
+      "acceptance criteria"
+    ],
+    "avoid": [
+      "vague coding requests",
+      "hard-coded secrets",
+      "mixed responsibilities",
+      "missing edge cases"
+    ]
+  }
+}

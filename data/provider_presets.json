@@ -1,0 +1,198 @@
+{
+  "local_rule_engine": {
+    "name": "Local Rule Engine",
+    "type": "local",
+    "description": "Built-in rule-based prompt formatting. No API key required.",
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "base_url": "",
+    "default_model": "built-in"
+  },
+  "openai_compatible": {
+    "name": "OpenAI-Compatible Provider",
+    "type": "openai",
+    "description": "Use for providers that expose OpenAI-compatible chat completions.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision"
+    ],
+    "base_url": "https://api.example.com/v1",
+    "default_model": "set-your-model"
+  },
+  "deepseek": {
+    "name": "DeepSeek",
+    "type": "openai_compatible",
+    "description": "DeepSeek official OpenAI-compatible API preset.",
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "base_url": "https://api.deepseek.com",
+    "default_model": "deepseek-chat"
+  },
+  "kimi": {
+    "name": "Kimi / Moonshot AI",
+    "type": "openai_compatible",
+    "description": "Moonshot AI Kimi OpenAI-compatible API preset.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision"
+    ],
+    "base_url": "https://api.moonshot.ai/v1",
+    "default_model": "kimi-latest"
+  },
+  "deepinfra": {
+    "name": "DeepInfra",
+    "type": "openai_compatible",
+    "description": "DeepInfra OpenAI-compatible inference API preset.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "embedding",
+      "image",
+      "audio"
+    ],
+    "base_url": "https://api.deepinfra.com/v1/openai",
+    "default_model": "meta-llama/Meta-Llama-3.1-8B-Instruct"
+  },
+  "together": {
+    "name": "Together AI",
+    "type": "openai_compatible",
+    "description": "Together AI OpenAI-compatible inference API preset.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "image",
+      "embedding",
+      "audio"
+    ],
+    "base_url": "https://api.together.ai/v1",
+    "default_model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+  },
+  "groq": {
+    "name": "Groq",
+    "type": "openai_compatible",
+    "description": "Groq OpenAI-compatible API preset.",
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "base_url": "https://api.groq.com/openai/v1",
+    "default_model": "llama-3.1-8b-instant"
+  },
+  "mistral": {
+    "name": "Mistral AI",
+    "type": "openai_compatible",
+    "description": "Mistral AI OpenAI-compatible API preset.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "embedding",
+      "audio"
+    ],
+    "base_url": "https://api.mistral.ai/v1",
+    "default_model": "mistral-large-latest"
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "type": "openai_compatible",
+    "description": "Perplexity OpenAI-compatible Sonar API preset.",
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "base_url": "https://api.perplexity.ai",
+    "default_model": "sonar-pro"
+  },
+  "novita": {
+    "name": "Novita AI",
+    "type": "openai_compatible",
+    "description": "Novita AI OpenAI-compatible API preset.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "image"
+    ],
+    "base_url": "https://api.novita.ai/openai",
+    "default_model": "set-your-model"
+  },
+  "fireworks": {
+    "name": "Fireworks AI",
+    "type": "openai_compatible",
+    "description": "Fireworks AI OpenAI-compatible inference API preset.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision",
+      "image"
+    ],
+    "base_url": "https://api.fireworks.ai/inference/v1",
+    "default_model": "accounts/fireworks/models/llama-v3p1-8b-instruct"
+  },
+  "cerebras": {
+    "name": "Cerebras",
+    "type": "openai_compatible",
+    "description": "Cerebras OpenAI-compatible API preset.",
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "base_url": "https://api.cerebras.ai/v1",
+    "default_model": "llama3.1-8b"
+  },
+  "openrouter": {
+    "name": "OpenRouter",
+    "type": "openrouter",
+    "description": "Multi-model routing provider. Fill your preferred model manually.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision"
+    ],
+    "base_url": "https://openrouter.ai/api/v1",
+    "default_model": "set-your-model"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "type": "gemini",
+    "description": "Google Gemini provider placeholder. Review current official endpoint before production use.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision"
+    ],
+    "base_url": "",
+    "default_model": "set-your-model"
+  },
+  "claude": {
+    "name": "Claude",
+    "type": "claude",
+    "description": "Anthropic Claude provider placeholder. Review current official endpoint before production use.",
+    "capabilities": [
+      "text",
+      "code",
+      "vision"
+    ],
+    "base_url": "",
+    "default_model": "set-your-model"
+  },
+  "grok": {
+    "name": "Grok",
+    "type": "grok",
+    "description": "xAI/Grok provider placeholder. Review current official endpoint before production use.",
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "base_url": "",
+    "default_model": "set-your-model"
+  }
+}
