@@ -1,4 +1,8 @@
+<p align="center">
+  <img src="public/assets/media/readme.png" alt="HumanPrompt Studio" width="100%">
+</p>
 # HumanPrompt Studio
+
 
 **HumanPrompt Studio** is a lightweight PHP prompt director that turns simple user requests into stronger AI-ready prompts, briefs, and final content for ads, images, videos, websites, code, articles, studies, plans, and general tasks.
 
